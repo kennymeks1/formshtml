@@ -50,10 +50,41 @@
     <p>What device do you listen on/</p>
     <select name="devices">
         <option value="ipod">Ipod</option>
-        <option value="radio">Radio</option>
+        <option value="radio" selected>Radio</option>
         <option value="computer">Computer</option>
     </select>
-</form>
+</form><br>
     
+<form action="">
+    <p>Do you play any of the following instruments</p>
+    <select name="instruments" multiple size="5">
+        <option value="guiter" selected>Guiter</option>
+        <option value="drums">Drum</option>
+        <option value="keyboard">Keyboard</option>
+        <option value="bass">Bass</option>
+    </select>
+</form>
+
+<p>Upload your song in mp3 format</p>
+<input type="file" name="user-song" required><br>
+<input type="submit" name="user-song" value="Upload">
+
+<form action="">
+    <p><input type="text" name="fullname" placeholder="Enter your full name"required></p>
+    <p><input type="email" name="email" placeholder="Enter your email sddress" required></p>
+    <p><input type="password" name="Password" placeholder="Enter your password"></p>
+    <button type="submit">Create Account</button>
+</form>
+
+<form action="">
+    <p>Gender:</p>
+    <label for=" female-gender">
+        <input type="radio" name="gender" id="female-gender" value="f">Female
+    </label><br><br>
+
+    <label for="male-gender">
+        <input type="radio" name="gender" id="male gender" value="m">Male
+    </label>
+</form>
 </body>
 </html>
