@@ -10,12 +10,20 @@
             margin-bottom: 1rem;
             width: 250px;
         } */
+         fieldset{
+            width: 200px;
+         }
+         fieldset input{
+            width: 190px;
+            height: 1rem;
+            padding: 0.5rem;
+         }
     </style>
 </head>
-<body> <br>
-<!-- <form action="">
+<!-- <body> <br>
+<form action="">
     <label for="">
-        <input type="text">
+        <input type="na">
     </label>
     <label for="Password">Password <br>
 
@@ -24,14 +32,14 @@
     <input type="number" name="" id="" placeholder="Enter your age" min="12" max="15" required><br>
     <input type="email" name="" id="" placeholder="Enter your email address" required>
     <p><button type="Submit"> Submit</button></p>
-</form> -->
+</form>
 
 <form>
     <p>What did you think of the gig?</p>
     <textarea name="Comments" cols="20" rows="4">Enter your comments</textarea>
-</form>
+<!-- </form> -->
 
-<form action="">
+<!-- <form action="">
     <p>Please select your favorite genre</p>
     <p>
         <input type="radio" name="genre" value="rock">Rock</p>
@@ -41,7 +49,7 @@
 
 <form action="">
     <p>Please select your favorite music service(s)</p>
-        <input type="checkbox" name="music" value="itunes">Itunes
+        <input type="checkbox" name="music-service" value="itunes">Itunes
     <input type="checkbox" name="music-services" value="lastfm">Last FM
     <input type="checkbox" name="music-service" value="spotify"checked>Spotify
 </form>
@@ -80,11 +88,35 @@
     <p>Gender:</p>
     <label for=" female-gender">
         <input type="radio" name="gender" id="female-gender" value="f">Female
-    </label><br><br>
+    </label><br>br
 
     <label for="male-gender">
         <input type="radio" name="gender" id="male gender" value="m">Male
     </label>
+</form> -->
+
+<form action="">
+    <fieldset>
+        <legend>Contact details</legend>
+        <label for="">Email <br>
+            <input type="email" placeholder="Enter your email address" required>
+        </label><br><br>
+        <label for="">Mobile <br>
+            <input type="number" placeholder="Enter your mobile number" required>
+        </label> <br><br>
+        <label for="">Telephone <br>
+            <input type="number" placeholder="Enter your telephone number" required>
+        </label> <br><br>
+        <button type="submit">Submit</button>
+    </fieldset>
+</form><br><br>
+<form action="">
+    <input type="date" name="" id="">
+    <input type="datetime" name="" id="">
+    <input type="datetime-local" name="" id="">
+</form><br>
+<form action="">
+    <input type="url" name="" id="" placeholder="Enter your url">
 </form>
 </body>
 </html>
